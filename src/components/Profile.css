@@ -1,0 +1,38 @@
+.Profile{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Profile h2{
+  text-align:center;
+}
+
+.profile-img{
+  width:210px;
+  height:210px;
+}
+
+.social-media-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+
+.social-media-list a{
+  text-decoration: none; 
+  color:black;
+}
+
+.social-media{
+  margin-top:20px;
+  padding: 10px;
+  border: 3px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 

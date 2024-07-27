@@ -1,0 +1,8 @@
+.header-text{
+  position: fixed;
+  top: 0;
+  width:96vw;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  z-index: 1;
+}

@@ -1,0 +1,48 @@
+.Project{
+  /**background-color: blue;**/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-display::-webkit-scrollbar {
+  display: none;
+}
+
+.project-header{
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  jusify-content: center;
+  align-items: center;
+}
+
+.my-project-title{
+  text-align: center;
+}
+
+.project-display{
+  margin: .7rem ;
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 2rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.more-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-project button{
+  background-color: transparent;
+  border: 3px dashed black;
+  font-size: 13px;
+  font-weight: bold;
+  padding: .3rem 1rem;
+  width: 100%;
+  text-align: center;
+}

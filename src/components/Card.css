@@ -1,0 +1,42 @@
+.card{
+  margin: 0 1.3rem;
+  box-sizing:border-box;
+  width: 15rem;
+  /**background-color: red;**/
+  padding: 2rem;
+  border: 4px dashed black;
+}
+
+.card button:disabled{
+  color: black;
+}
+
+.play-button{
+  background-color: transparent;
+  border: 3px dashed black;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: .2rem;
+}
+
+.source-code-button{
+  background-color: transparent;
+  border: 3px dashed black;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: .2rem;
+}
+
+.card p{
+  font-size: 12px;
+}
