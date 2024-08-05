@@ -1,0 +1,16 @@
+.desktop-view{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-view { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    z-index: 2;
+    min-height: 97vh;
+    min-width: 97vw;
+    position: fixed;
+  }
+}
